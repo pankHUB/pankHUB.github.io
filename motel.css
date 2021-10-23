@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    background-color: rgb(36, 139, 180);
+    font-size: 30px;
+    float: right;
+    position:fixed;
+}
+.nav a:hover {
+    background-color: khaki;
+  }
+.nav a{
+    color: aliceblue;
+}
+#home{
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+#motel{
+    padding-left: 390px;
+    padding-right: 381px;
+}
+#booking{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#about{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card {
+    float: left;
+    padding-top: 50px;
+    padding-left: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.map{
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.address{
+    padding-left: 100px;
+    padding-top: 200px;
+    float:left;
+    text-overflow: ellipsis;
+    
+}
+
+.parallax {
+    background-image: url("https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/gallery/ViewoftheGatewayofIndia-3x2.jpg/jcr:content/renditions/cq5dam.web.512.512.jpeg");
+
+
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.in{
+    padding-left: 350px;
+    padding-top: 200px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.pra2{
+    background-image: url("https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/16x7/AAG_27641818-H1-002Exterior53-16x7.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.pra3{
+    background-image: url("https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/gallery/Antiques.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg");
+
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+.pra4{
+    background-image: url("https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/gallery/Aquarius%202.JPG/jcr:content/renditions/cq5dam.web.756.756.jpeg");
+
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
